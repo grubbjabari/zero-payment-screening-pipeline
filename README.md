@@ -27,8 +27,11 @@ Requires Python 3.10 or later. There are no third-party packages to install.
 
 3. Put the email export in `data/`.
 
-`.env` and `data/` are gitignored. Never commit a key, an email export, or an
-extraction output.
+`.env` and `data/` are gitignored. Never commit a key or an email export.
+
+The payment table from the latest full run is committed for review at
+`outputs/payment_details.csv`. It is a copy; the script still writes to `data/`
+unless you pass `-o`.
 
 ## Usage
 
