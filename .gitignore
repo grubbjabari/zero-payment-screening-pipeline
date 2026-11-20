@@ -224,3 +224,6 @@ __marimo__/
 
 # Client email exports and extraction outputs (real payment data; never commit)
 data/
+
+# macOS
+.DS_Store
