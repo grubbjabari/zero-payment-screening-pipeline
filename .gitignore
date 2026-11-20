@@ -221,3 +221,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Client email exports and extraction outputs (real payment data; never commit)
+data/
